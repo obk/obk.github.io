@@ -4,7 +4,7 @@ email: me@bk.al # email of site's author
 url: https://bk.al # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog"
 description: > # description of the site (multiple lines allowed)
-  a blog of bahadir
+  blog of bahadir
 
 permalink: /:slug.html
 
