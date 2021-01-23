@@ -1,10 +1,9 @@
-title: bahadir kundak # name of the site
-author: bahadir kundak # name of site's author
+title: bahadir # name of the site
+author: bahadir # name of site's author
 email: me@bk.al # email of site's author
 url: https://bk.al # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog"
 description: > # description of the site (multiple lines allowed)
-  blog of bahadir
 
 permalink: /:slug.html
 
