@@ -6,9 +6,6 @@ entries:
     entries:
       - title: about me
         url: about
-      - title: programs and equipment i use
-
-        url: programs
       - title: github
         url: https://github.com/obk
       - title: twitter
