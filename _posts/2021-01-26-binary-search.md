@@ -2,17 +2,11 @@
 layout: post
 ---
 
-binary search
--------------
-binary search is a "divide and conquer" algorithm. the searched key is compeared with the key in the middle of de orderedlist, if not equal, the upper or lower half of the list is searched.
+binary search is a "divide and conquer" algorithm. the searched key is compeared with the key in the middle of de orderedlist, if not equal, the upper or lower half of the list is searched.  
 
-item for seach: 64
-
-|                     |                        |
-| ------------------- | :--------------------: |
-| indicies of array   | 0 1 2 3 4 5 6  7  8  9 |
-| values in the array | 1 3 5 9 22 34 64 77 93 |
-
+item for seach: 64  
+indicies of array: 0 1 2 3 4 5 6  7  8  9  
+values in the array: 1 3 5 9 22 34 64 77 93 
 <hr>
 
 binary search function 
