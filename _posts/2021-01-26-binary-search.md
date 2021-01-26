@@ -9,12 +9,9 @@ indicies of array: 0 1 2 3 4 5 6  7  8  9
 values in the array: 1 3 5 9 22 34 64 77 93 
 <hr>
 
-binary search function 
+binary search function in c++
+
 ```c++
-
-#include <iostream>
-using namespace std;
-
 int binarySearch(int list[], int length, int item)
 {
 	int low = 0, high = length - 1, mid;
@@ -37,19 +34,4 @@ int binarySearch(int list[], int length, int item)
 	}
 	return -1;
 }
-
-int main()
-{
-	int list[] = {1, 3, 5, 9, 22, 34, 64, 77, 93};
-	int pos = binarySearch(list, 9, 22);
-	if (pos >= 0)
-	{
-		cout << "Item found in position " << pos << endl;
-	}
-	else
-	{
-		cout << "404 not found" << endl;
-	}
-}
-
 ```
