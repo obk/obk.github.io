@@ -14,7 +14,7 @@ title: programs and equipment i use
 ###   os and software
 
 | -------------               |:-------------:                                              |:-----:                |
-| text editing and programming| [vs code](https:/code.visialstudio.com)                     |free software(mit)     |
+| text editing and programming| [vs code](https://code.visialstudio.com)                     |free software(mit)     |
 | operating system            | [windows 10 pro](https://windows.microsoft.com)             |proprietary software   |
 | terminal                    | [windows terminal](https://github.com/microsoft/terminal)   |free software(mit)     |
 
