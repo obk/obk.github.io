@@ -1,0 +1,22 @@
+title: bahadir kundak
+author: bahadir
+email: me@bk.al
+url: https://bk.al 
+baseurl: "" 
+
+permalink: /:slug.html
+
+favicon: "logo.png"
+goat_counter: "obk"
+
+remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "dark"
+  back_home_text: "cd .."
+  date_format: "%Y-%m-%d"
+  show_description: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
