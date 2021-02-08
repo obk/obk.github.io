@@ -57,7 +57,7 @@ a::selection {
   color: #ff4136;
 }
 
-blockquote{
+blockquote {
   font-size: 2rem;
   line-height: 3rem;
   max-width: 600px;
@@ -66,4 +66,10 @@ blockquote{
 
 blockquote p {
   margin-left: 1rem;
+}
+
+@media (max-width: 1200px) {
+  html {
+    margin: 5rem 1rem;
+  }
 }
