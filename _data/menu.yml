@@ -1,0 +1,22 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+      - title: about me
+        url: about
+      - title: github
+        url: https://github.com/obk
+      - title: twitter
+        url: https://twitter.com/bidikburger
+      - title: resume
+        url: cv.pdf  
+      - title: "<a href='mailto:bahadirkundak@pm.me'>mail</a> <a href='./public_key.asc'> (pgp key if you need)</a>"
+#      - title: rss
+#        url: feed.xml
+
+#  - title: last post
+#    post_list:
+#      limit: 5
+#      show_more: true
+#      show_more_text: archive...
+#      show_more_url: archive.html
