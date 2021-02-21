@@ -1,0 +1,75 @@
+@import url(normalize.css);
+@import url(fonts.css);
+html {
+    background-color: #16161d;
+    color: #dddddd;
+    margin: 5rem 20rem;
+    font-family: "Inconsolata", monospace;
+    letter-spacing: 0.1rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+footer {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    color: #dddddd;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 90%;
+    left: -0.1em;
+    right: -0.1em;
+    bottom: 0;
+    transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+    background-color: #ff4136;
+}
+
+a:hover:after {
+    top: 0%;
+}
+
+a::selection {
+    background-color: #85144b;
+}
+
+::selection {
+    background-color: #dddddd;
+    color: #ff4136;
+}
+
+blockquote {
+    font-size: 2rem;
+    line-height: 3rem;
+    max-width: 600px;
+    border-left: 5px solid #ff4136;
+}
+
+blockquote p {
+    margin-left: 1rem;
+}
+
+@media (max-width: 1200px) {
+    html {
+        margin: 5rem 1rem;
+    }
+}
