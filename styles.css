@@ -1,0 +1,55 @@
+@import url(normalize.css);
+@import url(fonts.css);
+
+body {
+  background-color: #000000;
+  color: #dddddd;
+  margin: 200px 350px;
+  font-family: "AG", sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 5.645vw;
+  line-height: 7.3vw;
+}
+
+a {
+  font-size: 1.2vw;
+  color: #dddddd;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 1.5vw;
+  color: #ff4136;
+}
+
+a::selection {
+  background-color: #85144b;
+}
+
+::selection {
+  background-color: #dddddd;
+  color: #ff4136;
+}
+
+blockquote {
+  font-size: 2rem;
+  line-height: 3rem;
+  max-width: 600px;
+}
+
+.nf {
+  margin-left: 0.75rem;
+}
+
+.ol {
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 1200px) {
+  body {
+    margin: 1rem;
+  }
+}
