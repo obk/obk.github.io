@@ -52,4 +52,13 @@ blockquote {
   body {
     margin: 1rem;
   }
+  h1{
+    font-size: x-large;
+  }
+  a {
+    font-size: x-large;
+  }
+  a:hover{
+    font-size: x-large;
+  }
 }
