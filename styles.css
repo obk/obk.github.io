@@ -6,13 +6,13 @@ body {
   color: #dddddd;
   margin: 200px 350px;
   font-family: "Inconsolata", monospace;
-  letter-spacing: 0.2rem;
   font-weight: 600;
 }
 
 h1 {
   font-size: 5.645vw;
   line-height: 7.3vw;
+  letter-spacing: 0.2rem;
 }
 
 a {
