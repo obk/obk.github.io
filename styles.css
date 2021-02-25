@@ -5,7 +5,8 @@ body {
   background-color: #000000;
   color: #dddddd;
   margin: 200px 350px;
-  font-family: "AG", sans-serif;
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 0.2rem;
   font-weight: 600;
 }
 
