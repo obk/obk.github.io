@@ -48,17 +48,33 @@ blockquote {
   margin-top: 0.75rem;
 }
 
+.tw:hover {
+  color: #1da1f2;
+}
+
+.ld:hover {
+  color: #0a66c2;
+}
+
+.gh:hover {
+  color: #f5f5f5;
+}
+
+.rs:hover {
+  color: #ff851b;
+}
+
 @media (max-width: 1200px) {
   body {
     margin: 1rem;
   }
-  h1{
+  h1 {
     font-size: x-large;
   }
   a {
     font-size: x-large;
   }
-  a:hover{
+  a:hover {
     font-size: x-large;
   }
 }
