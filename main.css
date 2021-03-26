@@ -1,0 +1,31 @@
+html{
+    font-size: 20px;
+}
+
+body{
+    background-color: #1a1a1d;
+    margin: 20px;
+    font-family: 'Newsreader', serif;
+    color: #eeeeee;
+}
+
+p{
+    line-height: 1.7rem;
+}
+
+.main{
+    max-width: 40rem;
+    margin: auto;
+    margin-top: 100px;
+}
+
+a{
+    display: inline-block;
+    transition: all .1s linear;
+    color: #ff4136;
+    text-decoration: none;
+}
+
+a:hover{
+    transform: skew(-10deg);
+}
