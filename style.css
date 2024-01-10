@@ -1,0 +1,115 @@
+.page-title {
+    text-shadow: 2px 2px 0 var(--clr-accent-400),
+    4px 4px 0 var(--clr-secondary-400),
+    6px 6px 0 var(--clr-primary-400);
+}
+
+.page-title span span {
+  text-shadow: 0 0 0;
+}
+
+hr {
+  --size: 2px;
+  border: 0;
+  height: var(--size);
+  background: white;
+  border-radius: 100vw;
+  box-shadow: 0 4px 0 var(--clr-accent-400), 
+              0 8px 0 var(--clr-secondary-400),
+              0 12px 0 var(--clr-primary-400);
+}
+
+
+.fancy-link {
+  text-decoration: none;
+  background-image: linear-gradient(90deg, red, blue);
+  background-size: 0% 3px;
+  background-position: left 1.4em;
+  background-repeat: no-repeat;
+  padding-block-end: 0.25em;
+  transition: color 500ms, background-size 500ms;
+}
+
+.fancy-link:hover,
+.fancy-link:focus {
+  color: white;
+  background-size: 100% 3px;
+}
+
+:root {
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+
+  --fs-300: clamp(0.94rem, calc(0.92rem + 0.08vw), 0.98rem);
+  --fs-400: clamp(1.13rem, calc(1.06rem + 0.33vw), 1.31rem);
+  --fs-500: clamp(1.35rem, calc(1.21rem + 0.69vw), 1.75rem);
+  --fs-600: clamp(1.62rem, calc(1.37rem + 1.24vw), 2.33rem);
+  --fs-700: clamp(1.94rem, calc(1.54rem + 2.03vw), 3.11rem);
+  --fs-800: clamp(2.33rem, calc(1.7rem + 3.15vw), 4.14rem);
+  --fs-900: clamp(2.8rem, calc(1.85rem + 4.74vw), 5.52rem);
+
+  --clr-primary-300: hsl(219, 76%, 55%);
+  --clr-primary-400: hsl(219, 76%, 40%);
+  --clr-primary-500: hsl(219, 76%, 25%);
+  --clr-secondary-300: hsl(269, 75%, 55%);
+  --clr-secondary-400: hsl(269, 75%, 40%);
+  --clr-secondary-500: hsl(269, 75%, 25%);
+  --clr-accent-300: hsl(358, 72%, 65%);
+  --clr-accent-400: hsl(358, 72%, 50%);
+  --clr-accent-500: hsl(358, 72%, 35%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  color: #ddd;
+  font-family: var(--font-family);
+  font-size: var(--fs-400);
+  line-height: 1.6;
+  padding-block: 6rem;
+}
+
+.wrapper {
+  width: min(50rem, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.page-title {
+  color: white;
+  text-align: center;
+  font-size: var(--fs-900);
+  line-height: 1.05;
+  text-transform: lowercase;
+  font-weight: 900;
+}
+
+.page-title > span {
+  position: relative;
+}
+
+.page-title > span > span {
+  position: absolute;
+  width: max-content;
+  bottom: 0.725em;
+  right: -7ch;
+  rotate: -8deg;
+  text-transform: none;
+  font-weight: 300;
+  font-size: 0.325em;
+  font-family: "Segoe Print", "Bradley Hand", Chilanka, TSCu_Comic, casual,
+    cursive;
+}
+
+.section-title {
+  font-size: var(--fs-800);
+  line-height: 1.1;
+}
+
