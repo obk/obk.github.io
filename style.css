@@ -1,7 +1,6 @@
 .page-title {
-    text-shadow: 2px 2px 0 var(--clr-accent-400),
-    4px 4px 0 var(--clr-secondary-400),
-    6px 6px 0 var(--clr-primary-400);
+  text-shadow: 2px 2px 0 var(--clr-accent-400),
+    4px 4px 0 var(--clr-secondary-400), 6px 6px 0 var(--clr-primary-400);
 }
 
 .page-title span span {
@@ -14,11 +13,9 @@ hr {
   height: var(--size);
   background: white;
   border-radius: 100vw;
-  box-shadow: 0 4px 0 var(--clr-accent-400), 
-              0 8px 0 var(--clr-secondary-400),
-              0 12px 0 var(--clr-primary-400);
+  box-shadow: 0 4px 0 var(--clr-accent-400), 0 8px 0 var(--clr-secondary-400),
+    0 12px 0 var(--clr-primary-400);
 }
-
 
 .fancy-link {
   text-decoration: none;
@@ -37,7 +34,8 @@ hr {
 }
 
 :root {
-  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
 
   --fs-300: clamp(0.94rem, calc(0.92rem + 0.08vw), 0.98rem);
   --fs-400: clamp(1.13rem, calc(1.06rem + 0.33vw), 1.31rem);
@@ -112,4 +110,3 @@ body {
   font-size: var(--fs-800);
   line-height: 1.1;
 }
-
