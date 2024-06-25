@@ -73,6 +73,11 @@ li {
   margin-bottom: 0.05rem;
 }
 
+mark {
+  background-color: var(--clr-accent);
+  color: var(--clr-secondary);
+}
+
 #horizontal_list {
   ul {
     list-style-type: none;
